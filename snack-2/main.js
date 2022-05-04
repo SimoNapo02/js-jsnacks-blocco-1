@@ -7,9 +7,9 @@ const ParolaDue = prompt("inserisci la seconda parola");
 
 // stampo la parola piu corta
 if(ParolaUno.length > ParolaDue.length){
-    console.log(ParolaUno);
+    console.log(ParolaUno, ParolaDue);
  }
 //  stampo la parola piu lunga
- else{
-    console.log(ParolaDue)
+ else if (ParolaUno.length < ParolaDue.length){
+    console.log(ParolaDue, ParolaUno)
  }
