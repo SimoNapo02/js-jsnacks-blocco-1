@@ -5,4 +5,11 @@ const ParolaUno = Text(prompt("inserisci la prima parola"))
 // Chiedo all'user la seconda parola
 const ParolaDue = Text(prompt("inserisci la seconda parola"))
 
-
+// stampo la parola piu corta
+if(ParolaUno.length > ParolaDue.length){
+    console.log(ParolaUno);
+ }
+//  stampo la parola piu lunga
+ else{
+    console.log(ParolaDue)
+ }
